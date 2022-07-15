@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './img-2.png'
+import logo from './pchousing.png'
 
 function Top() {
   return (
