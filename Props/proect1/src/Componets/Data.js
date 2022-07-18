@@ -129,7 +129,7 @@ export default [
         link:"http//helloe",
         image:"26.jpg",
         title: "Busy Terminal",
-        from: "27 May2021 ",
+        from: "27 May2021",
         to: "9 June 2021",
         Description:"The figure below shows you a compact characterization of the entire year of hourly average temperatures. The horizontal axis is the day of the year, the vertical axis is the hour of the day, and the color is the average temperature for that hour and day."
     },
