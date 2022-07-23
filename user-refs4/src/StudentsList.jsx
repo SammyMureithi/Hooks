@@ -9,15 +9,22 @@ export default function StudentsList({ fullnamee, regNooo, coursee, idd, handleD
     }
 
     return (
-        <div style={{ border: "2px solid red", margin: "5px" }}>
-            <h2>{fullnamee}</h2>
-            <p>Reg No : {regNooo}</p>
-            <p>Course : {coursee}</p>
-            <div>
-                <button style={{ margin: "2px" }} onClick={() => handleDelete(idd)}>DELETE</button>
-                <button style={{ margin: "2px" }} onClick={() => handleUpdate(idd)}>{done ? "Cleared" : "Not cleared"}</button>
-            </div>
-
+        <div>
+           <table>
+  <tr>
+    <th>Student Name</th>
+    <th>Registation No</th>
+    <th>Course</th>
+    <th>Edit</th>
+  </tr>
+  <tr>
+    <td>{fullnamee}</td>
+    <td>{regNooo}</td>
+    <td>{coursee}</td>
+    <td><button>Delete</button></td>
+  </tr>
+</table>
         </div>
     )
 }
+

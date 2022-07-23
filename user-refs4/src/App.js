@@ -50,6 +50,9 @@ function App() {
     };
 
     setStudentList((studentList) => [...studentList, newStudent]);
+    setFullName("")
+    setRegNo("")
+    setCourse("")
   }
 
   const studentListFunction = studentList.map((students) => {
